@@ -290,6 +290,102 @@
                     "currentEquation": "2000"
                 }
             ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.09523809523809523,
+            "y": 0.8299180327868851,
+            "uniqueID": "62cfa7b3-6a33-4b3a-9b03-c7e1e65bb71d",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 2,
+                    "currentEquation": "2"
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 1400,
+                    "currentEquation": "1400"
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.17813051146384482,
+            "y": 0.8319672131147541,
+            "uniqueID": "4c84f20e-e502-4982-91f3-c97a1597a6a0",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "62cfa7b3-6a33-4b3a-9b03-c7e1e65bb71d",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 2,
+                    "currentEquation": "2"
+                }
+            ]
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.2848324514991182,
+            "y": 0.8094262295081968,
+            "uniqueID": "d74e9efa-af83-4f90-a188-8da966efcd5c",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "4c84f20e-e502-4982-91f3-c97a1597a6a0",
+                    "currentEquation": null
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 60,
+                    "currentEquation": "60"
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.36067019400352734,
+            "y": 0.7766393442622951,
+            "uniqueID": "d98a56f5-16f1-4cd1-9aa5-c96be5c2394f",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "d74e9efa-af83-4f90-a188-8da966efcd5c",
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 900,
+                    "currentEquation": "900"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": -300,
+                    "currentEquation": "-300"
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -370,6 +466,24 @@
             "ap2Name": "geometry1",
             "ap1ID": "d11e22ba-9e16-4b36-8cfd-38bc70ae4cbf",
             "ap2ID": "a5efc795-c200-41d6-9c8d-1c59cd9b30e8"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "62cfa7b3-6a33-4b3a-9b03-c7e1e65bb71d",
+            "ap2ID": "4c84f20e-e502-4982-91f3-c97a1597a6a0"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "4c84f20e-e502-4982-91f3-c97a1597a6a0",
+            "ap2ID": "d74e9efa-af83-4f90-a188-8da966efcd5c"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "d74e9efa-af83-4f90-a188-8da966efcd5c",
+            "ap2ID": "d98a56f5-16f1-4cd1-9aa5-c96be5c2394f"
         }
     ],
     "unitsKey": "MM",
