@@ -13,7 +13,13 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "4a768ce4-1b5b-4fd0-8c2f-3ec50c5b3268",
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "2598ef3b-25d4-47b2-8508-762131952275",
+                    "currentEquation": null
+                }
+            ]
         },
         {
             "atomType": "Circle",
@@ -134,8 +140,8 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
+                    "ioValue": -100,
+                    "currentEquation": "-100"
                 },
                 {
                     "name": "zDist",
