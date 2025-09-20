@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "OffsetMaslow",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "5aeade94-e91b-493f-b471-63d86c1398cd",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
