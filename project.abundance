@@ -6,8 +6,136 @@
     "uniqueID": "5aeade94-e91b-493f-b471-63d86c1398cd",
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "4a768ce4-1b5b-4fd0-8c2f-3ec50c5b3268",
+            "ioValues": []
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.09435626102292768,
+            "y": 0.1987704918032787,
+            "uniqueID": "519120f7-764f-4eba-b325-9dedd6f8b223",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 4000,
+                    "currentEquation": "4000"
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 3000,
+                    "currentEquation": "3000"
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.09347442680776014,
+            "y": 0.5368852459016393,
+            "uniqueID": "d5504206-bd62-4b2b-bbf8-1c1029b8116c",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 300,
+                    "currentEquation": "300"
+                }
+            ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.08818342151675485,
+            "y": 0.32172131147540983,
+            "uniqueID": "d26ac642-a050-4166-a6bb-df840f60fcbc",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 3990,
+                    "currentEquation": "3990"
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 2990,
+                    "currentEquation": "2990"
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.2469135802469136,
+            "y": 0.24590163934426232,
+            "uniqueID": "a5efc795-c200-41d6-9c8d-1c59cd9b30e8",
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": "519120f7-764f-4eba-b325-9dedd6f8b223",
+                    "currentEquation": null
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": "d26ac642-a050-4166-a6bb-df840f60fcbc",
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.17813051146384482,
+            "y": 0.5286885245901639,
+            "uniqueID": "f0bc493d-10ce-4eb1-9f61-1011db412d62",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "d5504206-bd62-4b2b-bbf8-1c1029b8116c",
+                    "currentEquation": null
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 90,
+                    "currentEquation": "90"
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 90,
+                    "currentEquation": "90"
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 90,
+                    "currentEquation": "90"
+                }
+            ]
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap1ID": "519120f7-764f-4eba-b325-9dedd6f8b223",
+            "ap2ID": "a5efc795-c200-41d6-9c8d-1c59cd9b30e8"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "d5504206-bd62-4b2b-bbf8-1c1029b8116c",
+            "ap2ID": "f0bc493d-10ce-4eb1-9f61-1011db412d62"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap1ID": "d26ac642-a050-4166-a6bb-df840f60fcbc",
+            "ap2ID": "a5efc795-c200-41d6-9c8d-1c59cd9b30e8"
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
