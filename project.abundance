@@ -13,24 +13,11 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "4a768ce4-1b5b-4fd0-8c2f-3ec50c5b3268",
-            "ioValues": []
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.09435626102292768,
-            "y": 0.1987704918032787,
-            "uniqueID": "519120f7-764f-4eba-b325-9dedd6f8b223",
             "ioValues": [
                 {
-                    "name": "x length",
-                    "ioValue": 3500,
-                    "currentEquation": "3500"
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 2500,
-                    "currentEquation": "2500"
+                    "name": "number or geometry",
+                    "ioValue": "2598ef3b-25d4-47b2-8508-762131952275",
+                    "currentEquation": null
                 }
             ]
         },
@@ -51,32 +38,32 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.08818342151675485,
-            "y": 0.32172131147540983,
+            "x": 0.0837742504409171,
+            "y": 0.3401639344262295,
             "uniqueID": "d26ac642-a050-4166-a6bb-df840f60fcbc",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 3990,
-                    "currentEquation": "3990"
+                    "ioValue": 2990,
+                    "currentEquation": "2990"
                 },
                 {
                     "name": "y length",
-                    "ioValue": 2990,
-                    "currentEquation": "2990"
+                    "ioValue": 1990,
+                    "currentEquation": "1990"
                 }
             ]
         },
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.2469135802469136,
-            "y": 0.24590163934426232,
+            "x": 0.24603174603174605,
+            "y": 0.2336065573770492,
             "uniqueID": "a5efc795-c200-41d6-9c8d-1c59cd9b30e8",
             "ioValues": [
                 {
                     "name": "geometry1",
-                    "ioValue": "519120f7-764f-4eba-b325-9dedd6f8b223",
+                    "ioValue": "d11e22ba-9e16-4b36-8cfd-38bc70ae4cbf",
                     "currentEquation": null
                 },
                 {
@@ -277,22 +264,35 @@
                 },
                 {
                     "name": "Shape 2",
-                    "ioValue": null
+                    "ioValue": "437c97de-dc73-4fe9-97dd-aa264ebecbf6"
                 },
                 {
                     "name": "Shape 3",
                     "ioValue": "5c3d7daf-998c-452f-9d99-43d70263dd64"
                 }
             ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.08553791887125221,
+            "y": 0.1864754098360656,
+            "uniqueID": "d11e22ba-9e16-4b36-8cfd-38bc70ae4cbf",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 3000,
+                    "currentEquation": "3000"
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 2000,
+                    "currentEquation": "2000"
+                }
+            ]
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap1ID": "519120f7-764f-4eba-b325-9dedd6f8b223",
-            "ap2ID": "a5efc795-c200-41d6-9c8d-1c59cd9b30e8"
-        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
@@ -364,6 +364,12 @@
             "ap2Name": "number or geometry",
             "ap1ID": "2598ef3b-25d4-47b2-8508-762131952275",
             "ap2ID": "4a768ce4-1b5b-4fd0-8c2f-3ec50c5b3268"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap1ID": "d11e22ba-9e16-4b36-8cfd-38bc70ae4cbf",
+            "ap2ID": "a5efc795-c200-41d6-9c8d-1c59cd9b30e8"
         }
     ],
     "unitsKey": "MM",
